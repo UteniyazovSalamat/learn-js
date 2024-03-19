@@ -1,4 +1,6 @@
-let a;
-console.log(a);
-a = 5;
-console.log(a);
+let name = 'Sam';
+if (true) {
+    let name = 'Tom';
+    console.log(name);
+}
+console.log(name);
