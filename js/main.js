@@ -1,6 +1,9 @@
-let name = 'Sam';
-if (true) {
-    let name = 'Tom';
-    console.log(name);
+// Loops and iteration
+
+for (let i = 1; i < 10; i++) {
+    console.log('My balance 1$.');
 }
-console.log(name);
+
+for (let i = 1; i < 5; i++) {
+    console.log(`My balance ${i}$.`);
+}
