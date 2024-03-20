@@ -1,8 +1,9 @@
-const tasks = ['Task 1', 'Task 2', 'Task 3'];
+const arr = ['!', 'JS', 'love', 'I'];
+const resultArray = [];
 
-for (let i = 0; i < tasks.length; i++) {
-    if (tasks[i] === 'Task 2') {
-        continue;
-    }
-    console.log(tasks[i]);
+for (let i = arr.length - 1; i >= 0; i--) {
+    resultArray.push(arr[i]);
 }
+
+console.log(resultArray.join(' '));
+console.log(arr.reverse().join(' '));
