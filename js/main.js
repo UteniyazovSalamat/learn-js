@@ -1,9 +1,8 @@
-// Loops and iteration
+const tasks = ['Task 1', 'Task 2', 'Task 3'];
 
-for (let i = 1; i < 10; i++) {
-    console.log('My balance 1$.');
-}
-
-for (let i = 1; i < 5; i++) {
-    console.log(`My balance ${i}$.`);
+for (let i = 0; i < tasks.length; i++) {
+    if (tasks[i] === 'Task 2') {
+        break;
+    }
+    console.log(tasks[i]);
 }
