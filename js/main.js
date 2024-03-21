@@ -1,9 +1,17 @@
-const arr = ['!', 'JS', 'love', 'I'];
-const resultArray = [];
-
-for (let i = arr.length - 1; i >= 0; i--) {
-    resultArray.push(arr[i]);
+for (let i = 1; i < 5; i++) {
+    console.log(`First 1 - ${i}.`);
+    for (let j = 1; j < 5; j++) {
+        console.log(`Second 2 - ${j}.`);
+    }
 }
 
-console.log(resultArray.join(' '));
-console.log(arr.reverse().join(' '));
+const tasks = [
+    [1, 'Task 1'],
+    [2, 'Task 2'],
+];
+
+for (let i = 0; i < tasks.length; i++) {
+    for (let j = 0; j < tasks[i].length; j++) {
+        console.log(tasks[i][j]);
+    }
+}
