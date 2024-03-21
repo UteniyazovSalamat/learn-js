@@ -1,14 +1,3 @@
-let i = 0;
-
-while (i <= 5) {
+for (let i = 0; i <= 10; i++) {
     console.log(i);
-    i++;
 }
-
-console.log('yyyyy');
-
-let j = -1;
-do {
-    console.log(j);
-    j--;
-} while (j > 0);
