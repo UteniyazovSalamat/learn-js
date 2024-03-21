@@ -1,5 +1,17 @@
-let i = 10;
-do {
+for (let i = 0; i <= 5; i++) {
     console.log(i);
-    i--;
-} while (i > 5);
+}
+
+for (let i = 0; i < 5; i++) {
+    if (i === 3) {
+        break;
+    }
+    console.log(i);
+}
+
+for (let i = 0; i <= 5; i++) {
+    if (i === 3) {
+        continue;
+    }
+    console.log(i);
+}
