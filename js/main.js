@@ -1,17 +1,9 @@
-for (let i = 0; i <= 5; i++) {
-    console.log(i);
+const arr = [1, 4, 8, 7];
+
+for (let element of arr) {
+    console.log(element);
 }
 
-for (let i = 0; i < 5; i++) {
-    if (i === 3) {
-        break;
-    }
-    console.log(i);
-}
-
-for (let i = 0; i <= 5; i++) {
-    if (i === 3) {
-        continue;
-    }
-    console.log(i);
+for (let index in arr) {
+    console.log(index);
 }
