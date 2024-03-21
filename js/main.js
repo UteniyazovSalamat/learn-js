@@ -1,9 +1,14 @@
-const arr = [1, 4, 8, 7];
+let i = 0;
 
-for (let element of arr) {
-    console.log(element);
+while (i <= 5) {
+    console.log(i);
+    i++;
 }
 
-for (let index in arr) {
-    console.log(index);
-}
+console.log('yyyyy');
+
+let j = -1;
+do {
+    console.log(j);
+    j--;
+} while (j > 0);
